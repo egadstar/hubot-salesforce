@@ -1,0 +1,32 @@
+{
+  "name": "hubot-salesforce",
+  "version": "0.0.1",
+  "description": "Hubot adapter for Salesforce Chatter",
+  "main": "./src/salesforce",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egadstar/hubot-salesforce"
+  },
+  "keywords": [
+    "hubot",
+    "salesforce",
+    "chatter"
+  ],
+  "author": "Peter Washburn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egadstar/hubot-salesforce/issues"
+  },
+  "homepage": "https://github.com/egadstar/hubot-salesforce",
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm":  ">= 1.1.x"
+  },
+  "dependencies": {
+    "hubot": ">= 2.6.0 < 3.0.0",
+    "nforce": ">= 0.0.1"
+  }
+}
