@@ -1,5 +1,3 @@
-http://www.tuicool.com/articles/Uzy2Uj
-
 # Hubot Salesforce Adapter
 
 ## Description
@@ -25,18 +23,21 @@ copy data from the actual feed item store to your custom object.
 You will need to set some environment variables to use this adapter.
 
 Required
-export SALESFORCE_CLIENT_ID=client-id
-export SALESFORCE_CLIENT_SECRET=client-user
-export SALESFORCE_USERNAME=hubot-salesforce-username
-export SALESFORCE_PASSWORD=hubot-salesforce-password+token - Salesforce docs about OAuth talk about this
-export SALESFORCE_CHATTER_TOPIC=push-topic-name
-export SALESFORCE_USER_ID=hubot-salesforce-user-id
-export SALESFORCE_FEEDS=chatter-feed-id1,chatter-feed-id2
+
+     % export SALESFORCE_CLIENT_ID=client-id
+     % export SALESFORCE_CLIENT_SECRET=client-user
+     % export SALESFORCE_USERNAME=hubot-salesforce-username
+     % export SALESFORCE_PASSWORD=hubot-salesforce-password+token - Salesforce docs about OAuth talk about this
+     % export SALESFORCE_CHATTER_TOPIC=push-topic-name
+     % export SALESFORCE_USER_ID=hubot-salesforce-user-id
+     % export SALESFORCE_FEEDS=chatter-feed-id1,chatter-feed-id2
+
 
 Optional
-export SALESFORCE_ENVIRONMENT=(production or sandbox)
-export SALESFORCE_REDIRECT_URL=callback-url-for-connected-app
-export SALESFORCE_API_VERSION=v30.0
+
+     % export SALESFORCE_ENVIRONMENT=(production or sandbox)
+     % export SALESFORCE_REDIRECT_URL=callback-url-for-connected-app
+     % export SALESFORCE_API_VERSION=v30.0
 
 ## Copyright
 Copyright &copy; Peter Washburn. MIT License; see LICENSE for further details.
