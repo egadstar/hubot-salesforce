@@ -14,7 +14,7 @@ via the REST API.
 
 ## Preqs
 
-This [article](https://github.com/kevinohara80/nforce) provides the configuration needed in Salesforce for this to work.
+This [article](http://www.tuicool.com/articles/Uzy2Uj) provides the configuration needed in Salesforce for this to work.
 Basically, you need to create a connected application, custom object to store feed item data, push topic, and a trigger to
 copy data from the actual feed item store to your custom object.
 
